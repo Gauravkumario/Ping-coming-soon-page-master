@@ -87,7 +87,7 @@ button:hover{
 @media (max-width: 575px){
 	form{
 		width: 100%;
-		height: 7rem;
+		height: auto;
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
