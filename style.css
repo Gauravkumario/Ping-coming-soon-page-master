@@ -93,6 +93,10 @@ button:hover{
 		justify-content: space-between;
 	}
 
+	input,button{
+		width: 20rem;
+	}
+
 	#dashboard img{
 		width: 80% !important;
 	}
