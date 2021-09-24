@@ -97,6 +97,10 @@ button:hover{
 		width: 20rem;
 	}
 
+	button{
+		margin: auto;
+	}
+
 	#dashboard img{
 		width: 80% !important;
 	}
