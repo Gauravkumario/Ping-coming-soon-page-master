@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+main{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header,form,#dashboard{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header img{
+	padding: 2rem 0 0 0;
+}
+
+#heading{
+	text-align: center;
+}
+
+#heading h1{
+	font-size: 32px;
+	color: hsl(209, 33%, 12%);
+}
+
+mark{
+	font-weight: 300;
+	background: transparent;
+	color: hsl(0, 0%, 59%);
+}
+
+#heading p{
+	margin-top: 1rem;
+	color: hsl(209, 33%, 12%);
+}
+
+form div{
+	background-color: dimgrey;
+}
+
+input{
+	width: 22rem;
+	padding: 1rem;
+	outline: none;
+	color: hsl(209, 33%, 12%);
+	border: hsl(223, 100%, 88%) solid thin;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: hsl(223, 100%, 88%);
+ /* Firefox */
+}
+
+#mail-error{
+	display: none;
+	color: hsl(354, 100%, 66%);
+	font-size: 12px;
+	margin: 0.3rem 0 0 1rem;
+}
+
+input,button{
+	height: 2.9rem;
+	border-radius: 24px;
+}
+
+button{
+	/*margin-bottom: 1.3rem;*/
+	width: 9rem;
+	font-weight: 600;
+	cursor: pointer;
+	border: none;
+	margin-left: 1rem;color: #fff;
+	background-color: hsl(223, 87%, 63%);
+}
+
+button:hover{
+	background-color: hsl(223, 100%, 88%);
+}
+
+@media (max-width: 575px){
+	form{
+		width: 100%;
+		height: 7rem;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		background-color: red;
+	}
+
+	#dashboard img{
+		width: 80% !important;
+	}
+}
+
+
+#dashboard img{
+	width: 550px;
+	height: 350px;
+}
+
+#media-icon{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+ion-icon{
+	color: hsl(223, 87%, 63%);
+	width: 14px;
+	height: 14px;
+	border: hsl(223, 100%, 88%) solid thin;
+	padding: 0.3rem;
+	border-radius: 50%;
+}
+
+ion-icon:hover{
+	color: #fff;
+	background-color: hsl(223, 87%, 63%);
+}
+
+
+footer p{
+	color: hsl(0, 0%, 59%);
+	margin-top: 1rem;
+	font-size: 12px;
+}
