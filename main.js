@@ -8,6 +8,7 @@ function validation() {
 
     if (email.match(pattern))
     {
+        inputt.style.border = "hsl(223, 100%, 88%) solid thin";
         text.textContent = "Your mail has been submitted.";
         text.style.color = "green";
         text.style.display = "block";
@@ -19,8 +20,9 @@ function validation() {
         inputt.style.border = "hsl(354, 100%, 66%) solid thin";
         document.getElementById("btn").style.marginBottom = "1.3rem";
         text.textContent = "Please provide a valid email address";
+
         text.style.display = "block";
-        text.style.color = "color: hsl(354, 100%, 66%);"
+        text.style.color = "hsl(354, 100%, 66%)"
     }
 }
 inputt.style.border = "hsl(223, 100%, 88%) solid thin";
