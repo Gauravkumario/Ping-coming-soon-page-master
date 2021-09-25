@@ -1,9 +1,8 @@
-var inputt = document.getElementById("mail");
-inputt.style.border = "hsl(223, 100%, 88%) solid thin";
+var inputt = document.getElementById("mailInput");
 
 function validation() {
     var form = document.getElementById('form');
-    var email = document.getElementById('mail').value;
+    var email = document.getElementById('mailInput').value;
     var text = document.getElementById("mail-error");
     var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
@@ -17,9 +16,11 @@ function validation() {
 
     else
     {
-        inputt.style.border = "hsl(223, 100%, 88%) solid thin !important";
+        inputt.style.border = "hsl(354, 100%, 66%) solid thin";
         document.getElementById("btn").style.marginBottom = "1.3rem";
         text.textContent = "Please provide a valid email address";
         text.style.display = "block";
+        text.style.color = "color: hsl(354, 100%, 66%);"
     }
 }
+inputt.style.border = "hsl(223, 100%, 88%) solid thin";
