@@ -51,7 +51,6 @@ input{
 	padding: 1rem;
 	outline: none;
 	color: hsl(209, 33%, 12%);
-	border: hsl(223, 100%, 88%) solid thin;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -104,6 +103,10 @@ button:hover{
 
 	#dashboard img{
 		width: 80% !important;
+	}
+
+	#mail-error{
+		text-align: center;
 	}
 }
 
